@@ -1,0 +1,18 @@
+<html>
+<body>
+
+<h2>Array Sort in javascript</h2>
+<p>Click the button to sort the array in deceding order.</p>
+
+<button onclick="myFunction()">click here to sort</button>
+<p id="demo"></p>
+<script>
+const fruits=["orange","apple","litchi","pineapple","papaya","guova"];
+document.getElementById("demo").innerHTML = fruits;  
+function myFunction() {
+    fruits.sort();
+  document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+</body>
+</html>
