@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        <head>
+            for and in usage  
+        </head>
+    </title>
+    <body>
+        <button onclick="myFunction()"> click here </button> 
+        <p> Write a program with FOR/IN loop.</p>
+        <p id="demo"></p>
+        <script>
+            function myFunction() {
+              var person = {fname:"RAMA", lname:"KALYANI", age:30};               
+              var text = "";
+              var x;
+              for (x in person) {
+                text += person[x] + " ";
+              }
+              document.getElementById("demo").innerHTML = text;
+            }
+            </script>                         
+        </body>
+</html>
