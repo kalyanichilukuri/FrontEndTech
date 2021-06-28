@@ -1,0 +1,23 @@
+<!--  JS hoisting programs to initialize first and declare  ,
+    Write a program with variable hoisting(initialization first then declaration).-->
+    <!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"> This is hoiting </p>
+<script>
+var x = 5; // Initialize x
+var y = 7; // Initialize y
+
+elem = document.getElementById("demo"); // Find an element 
+elem.innerHTML = x + " " + y;       // Display x and y
+document.writeln(double(5)); // => 10
+// Declare
+
+function double(num) {
+  return num * 2;
+}
+</script>
+
+</body>
+</html> 

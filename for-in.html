@@ -1,0 +1,24 @@
+<html>
+    <head>
+    <title>
+        usage of for in 
+    </title>
+</head>
+<body>
+<h2>JavaScript For In</h2>
+<p>The for in statement can loops over array values:</p>
+
+<p id="demo"></p>
+
+<script>
+const numbers = [45, 4, 9, 16, 25];
+
+let result = "";
+for (let x in numbers) {
+  result += numbers[x] + "<br>"; 
+}
+
+document.getElementById("demo").innerHTML = result;
+</script>
+</body>
+</html>
