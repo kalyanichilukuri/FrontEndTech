@@ -1,0 +1,28 @@
+<!--Write program using this keyword when we click on button, it should be disappear-->
+<!DOCTYPE html>
+  <html>
+  
+  <body>
+    <p id="demo">Click me to change my HTML content (innerHTML).</p>
+  
+    <p> this shouldnt disappear</p>
+  
+    <button onclick="window.open();">open button</button>
+  
+    <button onclick="window.close();">close button</button>
+     
+    <script>
+    function open() { 
+    var x = document.getElementById("demo");
+    x.style.display = "block";
+    }
+          
+    function close() {
+    var x = document.getElementById("demo");
+    x.style.display = "none";
+    }
+        
+    </script>
+  </body>
+  
+  </html>
