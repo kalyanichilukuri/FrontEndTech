@@ -1,0 +1,71 @@
+<html>
+    <!--Apply different visibility by an element (visibility: hidden, visible, collapse) and use
+different types of display for an element (display: none, inline, block, contents, list-item)-->
+<head>
+    <title>
+        diff visibility elements
+    </title>
+    <style> li {
+        display: inline;
+      }
+      span {
+  display: block;
+}
+h1{
+    display:none;
+}
+li{
+display:list-item;
+}
+h2.hidden
+{
+    visibility:hidden;
+}
+h3.visible
+{
+    visibility:visible;
+}
+h4.collapse
+{
+    visibility:collapse;
+}
+td {
+background-color: blueviolet;
+padding: 15px;
+border: 2px solid greenyellow;}
+table.one {
+border-spacing: 5px 15px;}
+table.two {
+border-collapse: collapse;}
+</style>
+   
+    </head>
+<body>
+    <h1> this is h1 heading display none</h1>
+    <p> The following is for collapse</p>
+    <table class="one">
+        <tr>
+        <td>1</td>
+        <td>2</td>
+        </tr>
+        <tr>
+        <td>3</td>
+        <td>4</td>
+        </tr>
+        </table>
+    <h3 class="visible"> this is visible</h3>
+    <h4 class="collapse" > this is collapse </h4>
+    <p> different elements with visibility displaying list of links inline elements </p>
+    <h2 class = "hidden"> This is not visible </h2> <p> The above h2 heading is not printed because h2 is hidden property</p>
+    <ul>
+  <li><a href="/styles.html" target="_blank"> click here to view another file output using the inline elements</a></li>
+  <li><a href="/sample.html" target="_blank">CSS</a></li>
+  <li><a href="/Strict.html" target="_blank">JavaScript</a></li>
+  <span> hi this is span data </span>
+
+  <span>
+      A line between two span elements
+  </span>
+  </ul>
+</body>
+</html>
